@@ -1,0 +1,157 @@
+<?xml version="1.0" ?>
+<manifest identifier="RusticiSoftwareSCORMDriverTemplate" version="1"
+       xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+       xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                           http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd
+                           http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+	<metadata>
+		<schema>ADL SCORM</schema>
+		<schemaversion>1.2</schemaversion>
+		<adlcp:location>metadata.xml</adlcp:location> 
+	</metadata>
+	<organizations default="B0">
+		<organization identifier="B0">
+			
+			<!--****** Title ******-->
+			<title>Time to Care</title> 
+			
+			<item identifier="i1" identifierref="r1" isvisible="true">
+				
+				<!--****** Title ******-->
+
+				<title>Time to Care</title> 
+			</item>	
+		</organization>
+	</organizations>
+	<resources>
+		<resource identifier="r1" type="webcontent" adlcp:scormtype="sco" href="scormdriver/indexAPI.html">
+			 <file href="scormdriver/indexAPI.html" />
+				<file href="LICENSE.txt" />
+	            <file href="readme.txt" /> 
+	            <file href="scormcontent/css/basic_ie.css" />
+	            <file href="scormcontent/css/basic.css" />
+	            <file href="scormcontent/css/contact_form.css" />
+	            <file href="scormcontent/css/demo.css" />
+	            <file href="scormcontent/css/ie.css" />
+	            <file href="scormcontent/css/login.css" />
+	            <file href="scormcontent/css/menu.css" />
+	            <file href="scormcontent/css/style_ie.css" />
+	            <file href="scormcontent/css/style.css" />
+	            <file href="scormcontent/scripts/basic.js" />
+	            <file href="scormcontent/scripts/contact_form.js" />
+	            <file href="scormcontent/scripts/jquery-1.3.1.min.js" />
+	            <file href="scormcontent/scripts/jquery-1.3.2.min.js" />
+	            <file href="scormcontent/scripts/jquery.dropdown.js" />
+	            <file href="scormcontent/scripts/jquery.dropdownPlain.js" />
+	            <file href="scormcontent/scripts/jquery.js" />
+	            <file href="scormcontent/scripts/jquery.qtip-1.0.0-rc3.min.js" />
+	            <file href="scormcontent/scripts/jquery.simplemodal.js" />
+	            <file href="scormcontent/scripts/jquery.ui.touch-punch.js" />
+	            <file href="scormcontent/scripts/p2.js" />
+	            <file href="scormcontent/scripts/p3.js" />
+	            <file href="scormcontent/scripts/p4.js" />
+	            <file href="scormcontent/scripts/p4a.js" />
+	            <file href="scormcontent/scripts/p5.js" />
+	            <file href="scormcontent/scripts/p6.js" />
+	            <file href="scormcontent/scripts/p7.js" />
+	            <file href="scormcontent/scripts/p10.js" />
+	            <file href="scormcontent/scripts/p10a.js" />
+	            <file href="scormcontent/scripts/p10b.js" />
+	            <file href="scormcontent/scripts/p10c.js" />
+	            <file href="scormcontent/scripts/p11.js" />
+	            <file href="scormcontent/scripts/p12.js" />
+	            <file href="scormcontent/scripts/p14.js" />
+	            <file href="scormcontent/scripts/p15.js" />
+	            <file href="scormcontent/scripts/p15b.js" />
+	            <file href="scormcontent/scripts/p15c.js" />
+	            <file href="scormcontent/scripts/p15d.js" />
+	            <file href="scormcontent/scripts/p16.js" />
+	            <file href="scormcontent/scripts/p20.js" />
+	            <file href="scormcontent/scripts/p20a.js" />
+	            <file href="scormcontent/scripts/p20b.js" />
+	            <file href="scormcontent/scripts/p20c.js" />
+	            <file href="scormcontent/scripts/p20d.js" />
+	            <file href="scormcontent/scripts/p21.js" />
+	            <file href="scormcontent/scripts/p24.js" />
+	            <file href="scormcontent/scripts/p24b.js" />
+	            <file href="scormcontent/scripts/p24c.js" />
+	            <file href="scormcontent/scripts/p25.js" />
+	            <file href="scormcontent/scripts/p25B.js" />
+	            <file href="scormcontent/scripts/p26.js" />
+	            <file href="scormcontent/scripts/p1.js" />
+	            <file href="scormcontent/scripts/tooltip.js" />
+	            <file href="scormcontent/scripts/basic.js" />
+	            <file href="scormcontent/audio/audiojs/audio.min.js" />
+	            <file href="scormcontent/audio/audiojs/audiojs.swf" />
+	            <file href="scormcontent/audio/audiojs/player-graphics.gif" />
+	            <file href="scormcontent/audio/includes/index.css" />
+	            <file href="scormcontent/audio/mp3/intro01.mp3" />
+	            <file href="scormcontent/content/finalPage.php" />
+	            <file href="scormcontent/content/learningobjectives.php" />
+	            <file href="scormcontent/content/page1.html" />
+	            <file href="scormcontent/content/page2.html" />
+	            <file href="scormcontent/content/page3.html" />
+	            <file href="scormcontent/content/learningobjectives.html" />
+	            <file href="scormcontent/content/finalPage.html" />
+	            <file href="scormcontent/content/page4a.html" />
+	            <file href="scormcontent/content/page5.html" />
+	            <file href="scormcontent/content/page6.html" />
+	            <file href="scormcontent/content/page7.html" />
+	            <file href="scormcontent/content/page8.html" />
+	            <file href="scormcontent/content/page9.html" />
+	            <file href="scormcontent/content/page10.html" />
+	            <file href="scormcontent/content/page10a.html" />
+	            <file href="scormcontent/content/page10b.html" />
+	            <file href="scormcontent/content/page11.html" />
+	            <file href="scormcontent/content/page12.html" />
+	            <file href="scormcontent/content/page13.html" />
+	            <file href="scormcontent/content/page14.html" />
+	            <file href="scormcontent/content/page15.html" />
+	            <file href="scormcontent/content/page15b.html" />
+	            <file href="scormcontent/content/page15c.html" />
+	            <file href="scormcontent/content/page15d.html" />
+	            <file href="scormcontent/content/page16.html" />
+	            <file href="scormcontent/content/page17.html" />
+	            <file href="scormcontent/content/page18.html" />
+	            <file href="scormcontent/content/page20.html" />
+	            <file href="scormcontent/content/page20b.html" />
+	            <file href="scormcontent/content/page20c.html" />
+	            <file href="scormcontent/content/page20d.html" />
+	            <file href="scormcontent/content/page21.html" />
+	            <file href="scormcontent/content/page22.html" />
+	            <file href="scormcontent/content/page23.html" />
+	            <file href="scormcontent/content/page24.html" />
+	            <file href="scormcontent/content/page24b.html" />
+	            <file href="scormcontent/content/page24c.html" />
+	            <file href="scormcontent/content/page25.html" />
+	            <file href="scormcontent/content/page25B.html" />
+	            <file href="scormcontent/content/page26.html" />
+	            <file href="scormcontent/content/page27.html" />
+	            <file href="scormcontent/content/page28.html" />
+	            <file href="scormcontent/content/page29.html" />
+	            <file href="scormcontent/content/page30.html" />
+	            <file href="scormcontent/content/what1.html" />
+	            <file href="scormcontent/content/what2.html" />
+	            <file href="scormcontent/content/what3.html" />
+	            <file href="scormcontent/content/what4.html" />
+	            <file href="scormcontent/content/what5.html" />
+	            <file href="scormcontent/content/finalPage.html" />
+	            <file href="scormcontent/images/back_btn_disabled.png" />
+	            <file href="scormcontent/images/back_btn.png" />
+	            <file href="scormcontent/images/back_grey.png" />
+	            <file href="scormcontent/images/back_show.png" />
+	            <file href="scormcontent/images/background_main.png" />
+	 			<file href="scormcontent/index.html" /> 
+	 			<file href="scormdriver/AICCComm.html" /> 
+	 			<file href="scormdriver/auto-scripts/AutoBookmark.js" /> 
+	 			<file href="scormdriver/auto-scripts/AutoCompleteSCO.js" /> 
+	 			<file href="scormdriver/auto-scripts/CourseExit.js" /> 
+	 			<file href="scormdriver/blank.html" /> 
+	 			<file href="scormdriver/goodbye.html" /> 
+	 			<file href="scormdriver/scormdriver.js" />
+				<file href="scormdriver/browsersniff.js" />
+		</resource>
+	</resources>
+</manifest>

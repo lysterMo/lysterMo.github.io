@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Time to care</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <style type="text/css">
+<!--
+
+@media print
+{
+.noprint {display:none;}
+}
+
+@media screen
+{
+...
+}
+
+-->
+</style>
+</head>
+
+<body class="certificate">
+<script type="text/javascript">var mixedname = parent.GetStudentName();
+      var partsOfStr = mixedname.split(',');
+	  var formName = partsOfStr[1] + ' ' + partsOfStr[0];
+	  var today = new Date();
+    var dd = today.getDate();
+    var mm = today.getMonth()+1; //January is 0!
+
+    var yyyy = today.getFullYear();
+    if(dd<10){
+        dd='0'+dd
+    } 
+    if(mm<10){
+        mm='0'+mm
+    } 
+    var today = dd+'/'+mm+'/'+yyyy;
+      </script>
+      <div class="noprint">
+<ol><li><a href="#" onclick="javascript:window.print()">Print your certificate</a></li>
+<li><a href="page29.html">Return to Time to Care Content</a></li></ol></div>
+<div id="cert-container">
+<img id="cert-image" src="../images/certificate.png" width="550" height="806" />
+<p id="cert-name">
+sdfsdf
+  <script type="text/javascript">document.getElementById("cert-name").innerHTML = formName;</script>
+    </p>
+    <p id="cert-date">sdfsdf
+  <script type="text/javascript">document.getElementById("cert-date").innerHTML = today;</script>
+    </p>
+    </div>
+</body>
+</html>

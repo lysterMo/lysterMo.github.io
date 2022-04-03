@@ -1,0 +1,151 @@
+@charset "UTF-8";
+/* CSS Document */
+#nav{
+ position: absolute;
+   bottom: 15px;
+   left:15px;
+ 
+}
+#nav-function{
+	display:inline;
+float:left;
+	
+}
+#nav-function ul li a.home-btn{
+position:absolute;
+top: 10px;
+left:25px;
+}
+#nav-function ul li a.menu-btn{
+position:absolute;
+	top: 10px;
+	left: 50px;
+}
+#nav-function ul li a.exit-btn{
+position:absolute;
+	top: 10px;
+	left: -30px;
+	background-image:url(../images/exit_btn.png);
+	background-position:top;
+}
+.audio-player{
+position:absolute;
+top:20px;
+left:180px;
+}
+#nav-function ul li a.help-btn{
+position:absolute;
+	top: 10px;
+	left:80px;
+}
+.porter, .doctor,.nurse, .receptionist{
+	display:inline;
+	float:left;
+}
+#nav-backnext ul li a.back-btn{
+	position:absolute;
+	left:720px;
+	top: 15px;
+}
+#nav-backnext ul li a.next-btn{
+	position:absolute;
+	left:820px;
+	top: 15px;
+}
+
+#pg4-col1,#pg4-col2,#pg4-col3{
+display:inline;	
+	float: left;
+}
+#pg4-col1{
+	
+margin-right:20px;
+}
+#pg5-col1{
+position:absolute;
+
+left:400px;
+	
+}
+#pg9-col1{
+	position:absolute;
+	left:450px;
+	top:50px;
+}
+.ie-do{
+width:400px;	
+}
+#quiz-box{
+		position:absolute;
+	top:-600;
+
+	width:715px;
+	height:394px;
+	background-image:url(../images/pg11_back.png);
+}
+quiz-box-2{
+		position:absolute;
+	top:-600;
+
+	width:715px;
+}
+
+#makeMeDroppable{
+	
+}
+.wh-col{
+display: block;
+margin-right:4px;
+width:205px;	
+}
+#content-wrapper{
+position:relative;	
+left: 20px;
+top:20px;
+margin:0;
+padding:0;
+}
+#fader1{
+position:absolute;
+left:0px;
+top:80px;
+}
+#fader2{
+position:absolute;
+left:220px;
+top:80px;
+}
+#fader3{
+position:absolute;
+left:440px;
+top:80px;
+}
+#fader4{
+position:absolute;
+left:660px;
+top:80px;
+}
+.wh-col{
+	padding:10px;
+	border:none;
+display:block;
+padding:5px;
+width:200px;	
+}
+.wh-col img{
+display:block;	
+}
+#nav-backnext ul li a.next-btn-highlight{
+	position:absolute;
+	left:820px;
+	top: 15px;
+	background-position:bottom;
+}
+#page-content{
+margin-top:25px;	
+}
+pg11-col1{
+position:absolute;
+left:715px;
+top:300px;	
+}
